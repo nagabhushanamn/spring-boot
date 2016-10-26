@@ -41,6 +41,7 @@ public class SampleAtmosphereApplication {
 
 	@Bean
 	public EmbeddedAtmosphereInitializer atmosphereInitializer() {
+		int newVar
 		return new EmbeddedAtmosphereInitializer();
 	}
 
